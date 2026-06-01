@@ -1,0 +1,399 @@
+{
+  "generatedAt": "2026-06-01T11:06:59.875Z",
+  "summary": {
+    "items": 6,
+    "slowDecisionLanes": 5,
+    "escalationLanes": 3,
+    "averageBoardReadiness": 61.3,
+    "valueAtStakeMillions": 143,
+    "leadingMessage": "Decision latency is stacking across multiple lanes and now threatens the growth story more than demand does."
+  },
+  "items": [
+    {
+      "id": "ai-approval-latency",
+      "lane": "AI governance and agent readiness",
+      "track": "AI_GOVERNANCE",
+      "action": "ACCELERATE",
+      "latencyTheme": "Approval queues are stretching faster than agent delivery capacity, turning governance into the pacing function.",
+      "boardQuestion": "Which high-momentum lane is being slowed mainly by review and approval timing rather than by product readiness?",
+      "owner": "Chief AI Officer",
+      "audience": "Board risk committee",
+      "currentPosture": "The AI estate is live, but each new release still needs multiple review hops before leadership treats it as board-safe.",
+      "approvalHeadline": "Governance approvals are now the main gate on AI release velocity.",
+      "queueSignal": "Approval queue age is widening faster than the release calendar.",
+      "escalationOwner": "AI governance operations lead",
+      "requiredEvidence": [
+        "approval queue aging",
+        "evaluation sign-off time",
+        "exception review backlog"
+      ],
+      "relatedSurfaces": [
+        "agents.kineticgain.com",
+        "scorecard.kineticgain.com",
+        "memo.kineticgain.com"
+      ],
+      "companyTags": [
+        "OpenAI",
+        "Anthropic",
+        "Microsoft"
+      ],
+      "approvalCycleDays": 19,
+      "committeeLagScore": 67,
+      "escalationLoopScore": 61,
+      "decisionThroughputScore": 78,
+      "boardReadinessScore": 74,
+      "valueAtStakeMillions": 29,
+      "headline": "AI approvals are slowing the next release wave more than product scarcity is.",
+      "narrative": "The board should see that approval throughput, not invention, is pacing the current AI story.",
+      "nextMove": "Accelerate governance review throughput before funding another AI expansion tranche.",
+      "approvalAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Approval cycle time is stretching and may slow the next board-backed move."
+      },
+      "committeeAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Committee lag is materially slowing the next board-safe decision."
+      },
+      "escalationAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Escalation loops are now severe enough to distort operating speed."
+      },
+      "throughputAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Decision throughput is strong enough to support the current growth motion."
+      },
+      "readinessAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Board readiness is becoming dependent on extra explanation and follow-up."
+      },
+      "compositeLatencyScore": 33.3
+    },
+    {
+      "id": "identity-committee-lag",
+      "lane": "Identity and access governance",
+      "track": "IDENTITY",
+      "action": "ESCALATE",
+      "latencyTheme": "Role review closure and exception ownership are forcing committee lag across adjacent admin programs.",
+      "boardQuestion": "Which trust lane is slowing because committee cleanup is eating the time needed for forward decisions?",
+      "owner": "Chief Information Security Officer",
+      "audience": "Audit committee",
+      "currentPosture": "Identity governance remains strategically necessary, but committee cycles still absorb too much decision bandwidth.",
+      "approvalHeadline": "Exception closure is delaying the next approval round.",
+      "queueSignal": "Committee packets keep reopening before the next admin milestone can move.",
+      "escalationOwner": "Identity governance director",
+      "requiredEvidence": [
+        "committee packet reopen rate",
+        "exception closure lag",
+        "review queue aging"
+      ],
+      "relatedSurfaces": [
+        "certs.kineticgain.com",
+        "guest.kineticgain.com",
+        "protect.kineticgain.com"
+      ],
+      "companyTags": [
+        "Microsoft",
+        "Entra",
+        "Okta"
+      ],
+      "approvalCycleDays": 24,
+      "committeeLagScore": 72,
+      "escalationLoopScore": 69,
+      "decisionThroughputScore": 54,
+      "boardReadinessScore": 52,
+      "valueAtStakeMillions": 18,
+      "headline": "Identity decisions are still too slow to support adjacent modernization moves.",
+      "narrative": "The board should treat identity latency as a broader portfolio pacing issue until cleanup ownership is reset.",
+      "nextMove": "Escalate committee staffing and exception ownership before widening identity scope.",
+      "approvalAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Approval cycle time is now a material drag on the current growth story."
+      },
+      "committeeAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Committee lag is materially slowing the next board-safe decision."
+      },
+      "escalationAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Escalation loops are now severe enough to distort operating speed."
+      },
+      "throughputAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision throughput is too weak to support the current pace of expansion."
+      },
+      "readinessAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Board readiness is too thin to support confident approval decisions."
+      },
+      "compositeLatencyScore": 43.9
+    },
+    {
+      "id": "revenue-signoff-lag",
+      "lane": "Revenue systems and reporting",
+      "track": "REVENUE_SYSTEMS",
+      "action": "PAUSE",
+      "latencyTheme": "Refresh integrity and attribution disputes are forcing extra sign-off cycles before growth decisions are trusted.",
+      "boardQuestion": "Which commercial lane is slowing because decision sign-off still depends on explanation loops?",
+      "owner": "Chief Revenue Officer",
+      "audience": "Board finance committee",
+      "currentPosture": "The reporting estate is live, but decisions still move slower than the growth plan because leaders keep asking for reconciliation before sign-off.",
+      "approvalHeadline": "Growth decisions keep waiting on data explanations.",
+      "queueSignal": "Planning packets stall while attribution and refresh questions reopen the same meeting.",
+      "escalationOwner": "Revenue systems lead",
+      "requiredEvidence": [
+        "sign-off cycle time",
+        "attribution dispute log",
+        "manual reconciliation hours"
+      ],
+      "relatedSurfaces": [
+        "yield.kineticgain.com",
+        "powerbi.kineticgain.com",
+        "martech.kineticgain.com"
+      ],
+      "companyTags": [
+        "Power BI",
+        "Tableau",
+        "VWO"
+      ],
+      "approvalCycleDays": 21,
+      "committeeLagScore": 64,
+      "escalationLoopScore": 58,
+      "decisionThroughputScore": 57,
+      "boardReadinessScore": 55,
+      "valueAtStakeMillions": 24,
+      "headline": "Revenue approvals are slower because the numbers still need a story before they earn trust.",
+      "narrative": "Until the data stack stops requiring explanation loops before sign-off, the board is approving around latency rather than through it.",
+      "nextMove": "Pause new reporting asks until sign-off speed and reporting trust stabilize.",
+      "approvalAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Approval cycle time is now a material drag on the current growth story."
+      },
+      "committeeAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Committee lag is materially slowing the next board-safe decision."
+      },
+      "escalationAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Escalation loops are now severe enough to distort operating speed."
+      },
+      "throughputAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision throughput is too weak to support the current pace of expansion."
+      },
+      "readinessAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Board readiness is too thin to support confident approval decisions."
+      },
+      "compositeLatencyScore": 39
+    },
+    {
+      "id": "fintech-approval-fragmentation",
+      "lane": "FinTech diligence and transaction controls",
+      "track": "FINTECH",
+      "action": "REASSIGN",
+      "latencyTheme": "Merchant, treasury, and KYC decisions are slowed by fragmented approval ownership across too many partial control rooms.",
+      "boardQuestion": "Which lane needs one owner because decision latency is being created by fragmented approvals rather than missing artifacts?",
+      "owner": "Chief Financial Officer",
+      "audience": "Investment committee",
+      "currentPosture": "The control surfaces exist, but approvals still travel through too many partial owners before the board can move on capital questions.",
+      "approvalHeadline": "Fragmented sign-off paths are slowing capital and risk decisions.",
+      "queueSignal": "Merchant, treasury, and KYC reviews queue behind multiple approval owners.",
+      "escalationOwner": "Finance transformation lead",
+      "requiredEvidence": [
+        "packet turnaround time",
+        "approval handoff count",
+        "manual synthesis hours"
+      ],
+      "relatedSurfaces": [
+        "payments.kineticgain.com",
+        "merchant.kineticgain.com",
+        "treasury.kineticgain.com",
+        "kyc.kineticgain.com"
+      ],
+      "companyTags": [
+        "Stripe",
+        "Adyen",
+        "Plaid"
+      ],
+      "approvalCycleDays": 18,
+      "committeeLagScore": 59,
+      "escalationLoopScore": 63,
+      "decisionThroughputScore": 56,
+      "boardReadinessScore": 49,
+      "valueAtStakeMillions": 34,
+      "headline": "FinTech decisions are being slowed by fragmented approval ownership more than by missing proof.",
+      "narrative": "The board is not blocked by artifact scarcity; it is blocked by the time needed to combine and approve them across multiple owners.",
+      "nextMove": "Reassign one owner across the FinTech decision packet before adding another adjacent lane.",
+      "approvalAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Approval cycle time is stretching and may slow the next board-backed move."
+      },
+      "committeeAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Committee lag is rising and needs tighter ownership before the next milestone."
+      },
+      "escalationAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Escalation loops are now severe enough to distort operating speed."
+      },
+      "throughputAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision throughput is too weak to support the current pace of expansion."
+      },
+      "readinessAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Board readiness is too thin to support confident approval decisions."
+      },
+      "compositeLatencyScore": 38.7
+    },
+    {
+      "id": "procurement-approval-speed",
+      "lane": "Procurement, trust, and buyer proof",
+      "track": "PROCUREMENT",
+      "action": "ACCELERATE",
+      "latencyTheme": "Enterprise deal approvals are pacing on questionnaire freshness and proof response time rather than on product fit.",
+      "boardQuestion": "Which buyer lane can move faster if approval readiness and trust evidence are tightened?",
+      "owner": "Chief Commercial Officer",
+      "audience": "Board growth committee",
+      "currentPosture": "The procurement stack is strong, but enterprise approvals still wait on updated answers and proof packets.",
+      "approvalHeadline": "Buyer approvals are still slowed by trust-answer preparation time.",
+      "queueSignal": "Late-stage approvals stall while updated proofs and answers are assembled.",
+      "escalationOwner": "Trust center owner",
+      "requiredEvidence": [
+        "approval SLA",
+        "proof freshness log",
+        "questionnaire cycle time"
+      ],
+      "relatedSurfaces": [
+        "procurement.kineticgain.com",
+        "questionnaire.kineticgain.com",
+        "trust.kineticgain.com"
+      ],
+      "companyTags": [
+        "Vanta",
+        "Drata",
+        "Google"
+      ],
+      "approvalCycleDays": 12,
+      "committeeLagScore": 42,
+      "escalationLoopScore": 37,
+      "decisionThroughputScore": 83,
+      "boardReadinessScore": 81,
+      "valueAtStakeMillions": 16,
+      "headline": "Procurement approvals can accelerate if trust-answer throughput tightens further.",
+      "narrative": "This is a healthy lane; the decision drag is operational and fixable, which makes it one of the cleanest places to recover speed quickly.",
+      "nextMove": "Accelerate proof freshness and answer throughput before the next enterprise push.",
+      "approvalAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Approval cycle time remains inside the current growth cadence."
+      },
+      "committeeAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Committee lag remains contained for the current lane."
+      },
+      "escalationAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Escalation loops remain limited for the current lane."
+      },
+      "throughputAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Decision throughput is strong enough to support the current growth motion."
+      },
+      "readinessAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Board readiness is clear enough to keep the approval story credible."
+      },
+      "compositeLatencyScore": 21.6
+    },
+    {
+      "id": "biotech-review-lag",
+      "lane": "Biotech and diagnostics control lanes",
+      "track": "BIOTECH",
+      "action": "ESCALATE",
+      "latencyTheme": "Regulated review packets are moving slower than surface growth, creating committee lag across assay, CAPA, safety, and specimen lanes.",
+      "boardQuestion": "Which regulated lane is being slowed because review continuity cannot keep up with the surface count?",
+      "owner": "Quality systems lead",
+      "audience": "Board compliance committee",
+      "currentPosture": "The biotech stack is real, but committee-safe sign-off is moving slower than the rate of new adjacent surfaces.",
+      "approvalHeadline": "Regulated review continuity is now the pacing function.",
+      "queueSignal": "Change, CAPA, and release packets stack behind the same regulated reviewers.",
+      "escalationOwner": "GxP program manager",
+      "requiredEvidence": [
+        "review queue age",
+        "packet turnaround",
+        "closure lag by lane"
+      ],
+      "relatedSurfaces": [
+        "assay.kineticgain.com",
+        "capa.kineticgain.com",
+        "specimen.kineticgain.com",
+        "safety.kineticgain.com"
+      ],
+      "companyTags": [
+        "LabVantage",
+        "Veeva",
+        "Thermo Fisher"
+      ],
+      "approvalCycleDays": 26,
+      "committeeLagScore": 74,
+      "escalationLoopScore": 66,
+      "decisionThroughputScore": 53,
+      "boardReadinessScore": 57,
+      "valueAtStakeMillions": 22,
+      "headline": "Biotech decisions are slowed by review continuity more than by missing surface area.",
+      "narrative": "The board should see a review-capacity problem directly before another regulated lane is funded.",
+      "nextMove": "Escalate review-capacity planning before adding another regulated control surface.",
+      "approvalAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Approval cycle time is now a material drag on the current growth story."
+      },
+      "committeeAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Committee lag is materially slowing the next board-safe decision."
+      },
+      "escalationAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Escalation loops are now severe enough to distort operating speed."
+      },
+      "throughputAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision throughput is too weak to support the current pace of expansion."
+      },
+      "readinessAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Board readiness is too thin to support confident approval decisions."
+      },
+      "compositeLatencyScore": 44
+    }
+  ]
+}

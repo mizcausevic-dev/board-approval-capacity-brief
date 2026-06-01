@@ -1,0 +1,397 @@
+{
+  "generatedAt": "2026-06-01T11:36:18.344Z",
+  "summary": {
+    "items": 6,
+    "constrainedLanes": 5,
+    "hireOrReallocateLanes": 4,
+    "averageBoardConfidence": 60.3,
+    "valueAtStakeMillions": 154,
+    "leadingMessage": "Approval capacity is now a shared operating constraint across multiple lanes and needs explicit staffing intervention."
+  },
+  "items": [
+    {
+      "id": "ai-reviewer-bandwidth",
+      "lane": "AI governance and agent readiness",
+      "track": "AI_GOVERNANCE",
+      "action": "HIRE",
+      "capacityTheme": "Agent review queues are expanding faster than evaluator and governance staffing can absorb.",
+      "boardQuestion": "Which high-momentum AI lane needs additional review capacity rather than another policy reset?",
+      "owner": "Chief AI Officer",
+      "audience": "Board risk committee",
+      "currentPosture": "The AI estate is expanding, but review staffing is now the real limiter on safe release throughput.",
+      "capacityHeadline": "Evaluator and approval bandwidth is now the main brake on AI launch pacing.",
+      "backlogSignal": "AI release packets are waiting on the same small reviewer pool.",
+      "escalationOwner": "AI governance operations lead",
+      "requiredEvidence": [
+        "review queue aging",
+        "evaluator utilization",
+        "exception turnaround time"
+      ],
+      "relatedSurfaces": [],
+      "companyTags": [],
+      "reviewersAvailable": 3,
+      "approvalsInFlight": 17,
+      "approvalQueueDays": 16,
+      "committeeLoadScore": 65,
+      "reviewerCapacityScore": 54,
+      "escalationCoverageScore": 63,
+      "decisionCoverageScore": 72,
+      "boardConfidenceScore": 70,
+      "valueAtStakeMillions": 33,
+      "headline": "AI approval demand is outgrowing the current reviewer pool.",
+      "narrative": "[redacted]",
+      "nextMove": "[redacted]",
+      "queueAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Approval queue time is now materially constrained and is pacing the next board decision."
+      },
+      "committeeAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Committee load is now exceeding practical capacity and distorting decision timing."
+      },
+      "reviewerAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Reviewer capacity is too weak to support the current approval demand."
+      },
+      "escalationAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Escalation coverage is becoming uneven and needs reinforcement across adjacent lanes."
+      },
+      "decisionCoverageAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Decision coverage is getting patchy and may soon require reallocation or triage."
+      },
+      "boardConfidenceAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Board confidence is becoming dependent on extra explanation and queue triage."
+      },
+      "compositeCapacityRiskScore": 31.8
+    },
+    {
+      "id": "identity-reviewer-reallocation",
+      "lane": "Identity and access governance",
+      "track": "IDENTITY",
+      "action": "REALLOCATE",
+      "capacityTheme": "Identity approvals are piling into the same escalation path and starving adjacent admin work of reviewer time.",
+      "boardQuestion": "Which trust lane needs reviewer reallocation because one approval queue is absorbing too much decision bandwidth?",
+      "owner": "Chief Information Security Officer",
+      "audience": "Audit committee",
+      "currentPosture": "Identity work remains strategically important, but the reviewer mix is imbalanced and is slowing adjacent remediation.",
+      "capacityHeadline": "Reviewer allocation is too concentrated around exception cleanup.",
+      "backlogSignal": "Exception-heavy reviews keep displacing lower-friction approvals.",
+      "escalationOwner": "Identity governance director",
+      "requiredEvidence": [
+        "review queue split",
+        "exception packet aging",
+        "reviewer utilization by lane"
+      ],
+      "relatedSurfaces": [],
+      "companyTags": [],
+      "reviewersAvailable": 4,
+      "approvalsInFlight": 15,
+      "approvalQueueDays": 14,
+      "committeeLoadScore": 61,
+      "reviewerCapacityScore": 58,
+      "escalationCoverageScore": 57,
+      "decisionCoverageScore": 55,
+      "boardConfidenceScore": 53,
+      "valueAtStakeMillions": 19,
+      "headline": "Identity approvals need a different reviewer mix more than net-new scope.",
+      "narrative": "[redacted]",
+      "nextMove": "[redacted]",
+      "queueAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Approval queue time is rising and will start to slow board actions if staffing stays flat."
+      },
+      "committeeAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Committee load is now exceeding practical capacity and distorting decision timing."
+      },
+      "reviewerAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Reviewer capacity is too weak to support the current approval demand."
+      },
+      "escalationAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Escalation coverage is too thin to absorb the current approval load safely."
+      },
+      "decisionCoverageAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision coverage is too weak to sustain clean board-facing approvals."
+      },
+      "boardConfidenceAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Board confidence is too thin to support additional approval demand without intervention."
+      },
+      "compositeCapacityRiskScore": 35
+    },
+    {
+      "id": "revenue-committee-overload",
+      "lane": "Revenue systems and reporting",
+      "track": "REVENUE_SYSTEMS",
+      "action": "ESCALATE",
+      "capacityTheme": "Reporting and attribution approvals keep reopening in finance committee cycles because reviewers lack clean ownership boundaries.",
+      "boardQuestion": "Which commercial lane is constrained because committee load is rising faster than approval ownership clarity?",
+      "owner": "Chief Revenue Officer",
+      "audience": "Board finance committee",
+      "currentPosture": "The reporting estate works, but committee review load still spikes whenever attribution or refresh integrity needs explanation.",
+      "capacityHeadline": "Finance committee load is now the main source of approval drag.",
+      "backlogSignal": "Board packet sign-off waits for repeated reporting clarifications.",
+      "escalationOwner": "Revenue systems lead",
+      "requiredEvidence": [
+        "committee packet reopen rate",
+        "approval-cycle aging",
+        "manual reconciliation hours"
+      ],
+      "relatedSurfaces": [],
+      "companyTags": [],
+      "reviewersAvailable": 3,
+      "approvalsInFlight": 13,
+      "approvalQueueDays": 18,
+      "committeeLoadScore": 69,
+      "reviewerCapacityScore": 51,
+      "escalationCoverageScore": 49,
+      "decisionCoverageScore": 52,
+      "boardConfidenceScore": 50,
+      "valueAtStakeMillions": 27,
+      "headline": "Revenue approvals are slow because committee capacity is being consumed by explanation loops.",
+      "narrative": "[redacted]",
+      "nextMove": "[redacted]",
+      "queueAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Approval queue time is now materially constrained and is pacing the next board decision."
+      },
+      "committeeAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Committee load is now exceeding practical capacity and distorting decision timing."
+      },
+      "reviewerAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Reviewer capacity is too weak to support the current approval demand."
+      },
+      "escalationAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Escalation coverage is too thin to absorb the current approval load safely."
+      },
+      "decisionCoverageAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision coverage is too weak to sustain clean board-facing approvals."
+      },
+      "boardConfidenceAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Board confidence is too thin to support additional approval demand without intervention."
+      },
+      "compositeCapacityRiskScore": 40.1
+    },
+    {
+      "id": "fintech-queue-hold",
+      "lane": "FinTech diligence and transaction controls",
+      "track": "FINTECH",
+      "action": "HOLD",
+      "capacityTheme": "Merchant, treasury, and KYC approvals are outrunning the current review bench and need queue containment first.",
+      "boardQuestion": "Which capital-sensitive lane should hold additional work until approval capacity catches up?",
+      "owner": "Chief Financial Officer",
+      "audience": "Investment committee",
+      "currentPosture": "The control surfaces are real, but decision packets are entering the queue faster than current reviewers can clear them safely.",
+      "capacityHeadline": "The current FinTech queue is too full to absorb another adjacent program safely.",
+      "backlogSignal": "Treasury, KYC, and merchant packets are waiting behind the same finite approvers.",
+      "escalationOwner": "Finance transformation lead",
+      "requiredEvidence": [
+        "packet queue age",
+        "reviewer hours by lane",
+        "approval SLA misses"
+      ],
+      "relatedSurfaces": [],
+      "companyTags": [],
+      "reviewersAvailable": 2,
+      "approvalsInFlight": 14,
+      "approvalQueueDays": 20,
+      "committeeLoadScore": 67,
+      "reviewerCapacityScore": 47,
+      "escalationCoverageScore": 45,
+      "decisionCoverageScore": 50,
+      "boardConfidenceScore": 48,
+      "valueAtStakeMillions": 36,
+      "headline": "FinTech approval capacity is below the current queue demand.",
+      "narrative": "[redacted]",
+      "nextMove": "[redacted]",
+      "queueAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Approval queue time is now materially constrained and is pacing the next board decision."
+      },
+      "committeeAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Committee load is now exceeding practical capacity and distorting decision timing."
+      },
+      "reviewerAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Reviewer capacity is too weak to support the current approval demand."
+      },
+      "escalationAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Escalation coverage is too thin to absorb the current approval load safely."
+      },
+      "decisionCoverageAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision coverage is too weak to sustain clean board-facing approvals."
+      },
+      "boardConfidenceAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Board confidence is too thin to support additional approval demand without intervention."
+      },
+      "compositeCapacityRiskScore": 42.1
+    },
+    {
+      "id": "procurement-capacity-strength",
+      "lane": "Procurement, trust, and buyer proof",
+      "track": "PROCUREMENT",
+      "action": "REALLOCATE",
+      "capacityTheme": "Procurement approvals are healthy enough that some reviewer slack can be reallocated to more constrained board lanes.",
+      "boardQuestion": "Which lane can lend capacity elsewhere because its approval machine is healthier than the rest of the estate?",
+      "owner": "Chief Commercial Officer",
+      "audience": "Board growth committee",
+      "currentPosture": "The trust and procurement lane is healthy, with cleaner proof freshness and faster answer throughput than adjacent lanes.",
+      "capacityHeadline": "Procurement has usable reviewer slack relative to the rest of the estate.",
+      "backlogSignal": "Approval SLAs remain healthy even during late-stage enterprise pushes.",
+      "escalationOwner": "Trust center owner",
+      "requiredEvidence": [
+        "approval SLA",
+        "questionnaire turnaround",
+        "proof freshness rate"
+      ],
+      "relatedSurfaces": [],
+      "companyTags": [],
+      "reviewersAvailable": 5,
+      "approvalsInFlight": 8,
+      "approvalQueueDays": 7,
+      "committeeLoadScore": 35,
+      "reviewerCapacityScore": 86,
+      "escalationCoverageScore": 84,
+      "decisionCoverageScore": 81,
+      "boardConfidenceScore": 83,
+      "valueAtStakeMillions": 14,
+      "headline": "Procurement can support some reviewer reallocation without creating board drag.",
+      "narrative": "[redacted]",
+      "nextMove": "[redacted]",
+      "queueAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Approval queue time remains inside the current board-safe planning window."
+      },
+      "committeeAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Committee load remains inside the current reviewer capacity band."
+      },
+      "reviewerAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Reviewer capacity is strong enough to support the current approval calendar."
+      },
+      "escalationAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Escalation coverage is strong enough to prevent queue drift from becoming a board problem."
+      },
+      "decisionCoverageAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Decision coverage remains strong enough to keep approval packets moving cleanly."
+      },
+      "boardConfidenceAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Board confidence remains clear enough to support the current staffing plan."
+      },
+      "compositeCapacityRiskScore": 15.3
+    },
+    {
+      "id": "biotech-review-capacity",
+      "lane": "Biotech and diagnostics control lanes",
+      "track": "BIOTECH",
+      "action": "HIRE",
+      "capacityTheme": "Regulated review continuity is now a staffing constraint across assay, CAPA, specimen, and safety lanes.",
+      "boardQuestion": "Which regulated lane needs explicit review-capacity expansion before the board funds another adjacent surface?",
+      "owner": "Quality systems lead",
+      "audience": "Board compliance committee",
+      "currentPosture": "The biotech stack is real, but the current regulated reviewer bench is too thin for the expanding queue.",
+      "capacityHeadline": "Regulated approval capacity is now the bottleneck across the biotech surface family.",
+      "backlogSignal": "Change, CAPA, and release packets are stacking behind the same small reviewer bench.",
+      "escalationOwner": "GxP program manager",
+      "requiredEvidence": [
+        "review queue age",
+        "reviewer coverage map",
+        "closure lag by lane"
+      ],
+      "relatedSurfaces": [],
+      "companyTags": [],
+      "reviewersAvailable": 2,
+      "approvalsInFlight": 16,
+      "approvalQueueDays": 23,
+      "committeeLoadScore": 74,
+      "reviewerCapacityScore": 43,
+      "escalationCoverageScore": 51,
+      "decisionCoverageScore": 56,
+      "boardConfidenceScore": 58,
+      "valueAtStakeMillions": 25,
+      "headline": "Biotech reviewer capacity is materially below current regulated approval demand.",
+      "narrative": "[redacted]",
+      "nextMove": "[redacted]",
+      "queueAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Approval queue time is now materially constrained and is pacing the next board decision."
+      },
+      "committeeAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Committee load is now exceeding practical capacity and distorting decision timing."
+      },
+      "reviewerAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Reviewer capacity is too weak to support the current approval demand."
+      },
+      "escalationAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Escalation coverage is too thin to absorb the current approval load safely."
+      },
+      "decisionCoverageAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision coverage is too weak to sustain clean board-facing approvals."
+      },
+      "boardConfidenceAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Board confidence is too thin to support additional approval demand without intervention."
+      },
+      "compositeCapacityRiskScore": 41.9
+    }
+  ]
+}
