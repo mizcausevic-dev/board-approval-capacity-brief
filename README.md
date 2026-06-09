@@ -9,6 +9,27 @@ Board-ready approval capacity surface for reviewer bandwidth, committee throughp
 
 Leaders need more than queue visibility. They need one surface that shows where reviewer coverage, committee throughput, and escalation capacity are too thin to support the next board-backed move.
 
+## Product depth
+
+For executives, this turns approval-capacity pressure into a board-ready decision packet: reviewer load, committee throughput, escalation gaps, value at stake, and confidence scores are presented as staffing and intervention choices.
+
+For operators, every overloaded lane keeps its accountable owner, board audience, reviewer count, approvals in flight, capacity theme, and safe next move attached.
+
+For GTM and diligence, the repo demonstrates a repeatable Kinetic Gain pattern: messy operating constraints become risk, owner, proof, and next action in one public surface.
+
+## What these repos have in common
+
+- `risk`: the fragile handoff is made explicit before it becomes a vague operating complaint.
+- `owner`: the accountable function remains attached to the next action.
+- `proof`: fixtures, tests, JSON payloads, prerendered pages, screenshots, and release checks support the public story.
+
+## Operating workflow
+
+1. Model approval lanes, owners, audiences, reviewer capacity, queue pressure, and value at stake.
+2. Calculate board-confidence and composite capacity-risk signals.
+3. Publish capacity lanes, staffing ledger, intervention posture, and verification pages.
+4. Use the brief for board prep, hiring tradeoffs, operating reviews, and diligence narratives.
+
 ## What it includes
 
 - TypeScript executive-intelligence surface for approval capacity with modeled reviewer lanes, staffing pressure, committee throughput, and board-safe intervention posture

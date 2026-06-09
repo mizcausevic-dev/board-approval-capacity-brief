@@ -31,6 +31,7 @@ export function createApp() {
   return app;
 }
 
+/* v8 ignore next 4 -- process entrypoint is exercised by deployment smoke checks, not unit coverage. */
 if (import.meta.url === `file://${process.argv[1]?.replace(/\\/g, "/")}`) {
   const port = Number(process.env.PORT ?? 4318);
   createApp().listen(port, "127.0.0.1", () => {

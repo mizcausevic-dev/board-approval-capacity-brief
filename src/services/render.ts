@@ -126,7 +126,9 @@ function shell(title: string, path: string, body: string, description: string) {
       <div class="footer">
         <span>${productTitle}</span>
         <a href="${domain}">${domain.replace("https://", "")}</a>
-        <a href="https://github.com/mizcausevic-dev/">GitHub</a>
+        <a href="https://portfolio.kineticgain.com/">Portfolio</a>
+        <a href="https://suite.kineticgain.com/">Suite</a>
+        <a href="https://github.com/mizcausevic-dev/board-approval-capacity-brief">Repo</a>
         <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a>
         <a href="https://kineticgain.com/">Kinetic Gain</a>
       </div>
@@ -197,6 +199,46 @@ export function renderOverview() {
     <section class="section">
       <h2>Board-visible capacity exposures</h2>
       <ul>${risks}</ul>
+    </section>
+    <section class="section">
+      <h2>Product depth</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="chip">For executives</div>
+          <h3>Capacity becomes a decision packet, not a queue report.</h3>
+          <p>The surface converts reviewer load, committee throughput, escalation gaps, and confidence scores into a board-readable staffing and intervention brief.</p>
+        </article>
+        <article class="card">
+          <div class="chip">For operators</div>
+          <h3>Every overloaded lane keeps its owner and next move.</h3>
+          <p>Capacity pressure stays tied to the accountable owner, audience, reviewers available, approvals in flight, and the action leadership can actually take.</p>
+        </article>
+        <article class="card">
+          <div class="chip">For GTM and diligence</div>
+          <h3>The story is useful to buyers and technical reviewers.</h3>
+          <p>This repo shows how Kinetic Gain turns messy operating constraints into reusable executive intelligence: risk, owner, proof, and next action in one surface.</p>
+        </article>
+      </div>
+    </section>
+    <section class="section">
+      <h2>What these repos have in common</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="chip">Risk</div>
+          <h3>The fragile handoff is made visible.</h3>
+          <p>Here the fragile handoff is approval demand outrunning reviewer bandwidth, committee cadence, and escalation coverage while leaders keep approving more work.</p>
+        </article>
+        <article class="card">
+          <div class="chip">Owner</div>
+          <h3>The accountable function stays attached.</h3>
+          <p>Each lane keeps owner, audience, capacity theme, staffing pressure, and intervention posture visible so accountability does not disappear into status theater.</p>
+        </article>
+        <article class="card">
+          <div class="chip">Proof</div>
+          <h3>The claim is inspectable.</h3>
+          <p>The repo includes fixtures, tests, JSON payloads, prerendered pages, screenshots, and release checks that make the public story reproducible.</p>
+        </article>
+      </div>
     </section>`,
     "Board-ready approval-capacity surface for reviewer bandwidth, committee load, intervention posture, and staffing tradeoffs across the executive estate."
   );
