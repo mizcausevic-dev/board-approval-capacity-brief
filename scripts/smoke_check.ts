@@ -33,6 +33,20 @@ async function main() {
     if (!response.headers.get("content-type")?.includes("text/html")) {
       throw new Error(`Expected HTML content for ${route}`);
     }
+
+    if (route === "/") {
+      const html = await response.text();
+      for (const marker of [
+        "Product depth",
+        "What these repos have in common",
+        "portfolio.kineticgain.com",
+        "board-approval-capacity-brief"
+      ]) {
+        if (!html.includes(marker)) {
+          throw new Error(`Expected overview to include ${marker}`);
+        }
+      }
+    }
   }
 
   for (const route of jsonRoutes) {
